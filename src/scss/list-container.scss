@@ -1,0 +1,12 @@
+$layer: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.6));
+
+.listContainer {
+	background: $layer #723185;
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}

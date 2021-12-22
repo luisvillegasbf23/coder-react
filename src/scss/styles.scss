@@ -1,0 +1,14 @@
+@import "app";
+@import "list-container";
+
+$my-font: "Poppins", sans-serif;
+$layer: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.6));
+body {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+	font-family: $my-font;
+}

@@ -1,12 +1,15 @@
+import "./scss/.scss";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Navbar from "./NavBar";
+import Navbar from "./componenst/NavBar";
 import reportWebVitals from "./reportWebVitals";
+import { ItemListContainer } from "./componenst/ItemListContainer";
 
 ReactDOM.render(
 	<React.StrictMode>
 		<Navbar />
+		<ItemListContainer />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
