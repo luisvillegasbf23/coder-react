@@ -1,0 +1,21 @@
+.counter {
+	width: 250px;
+	display: inline-flex;
+	flex-grow: 3;
+	align-items: center;
+	justify-content: space-around;
+}
+
+button {
+	height: 50px;
+	width: 40px;
+	border-style: none;
+	border-radius: 10px;
+}
+
+.agg {
+	height: 50px;
+	width: 100px;
+	border-style: none;
+	border-radius: 10px;
+}

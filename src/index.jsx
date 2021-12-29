@@ -1,15 +1,17 @@
-import "./scss/.scss";
+import "./scss/styles.scss";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import Navbar from "./componenst/NavBar";
 import reportWebVitals from "./reportWebVitals";
 import { ItemListContainer } from "./componenst/ItemListContainer";
+import { ItemCount } from "./componenst/ItemCount";
 
 ReactDOM.render(
 	<React.StrictMode>
 		<Navbar />
 		<ItemListContainer />
+		<ItemCount min={1} max={10} />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
