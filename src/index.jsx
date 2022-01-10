@@ -6,12 +6,14 @@ import Navbar from "./componenst/NavBar";
 import reportWebVitals from "./reportWebVitals";
 import { ItemListContainer } from "./componenst/ItemListContainer";
 import { ItemCount } from "./componenst/ItemCount";
+import ItemDetailContainer from "./componenst/ItemDetailContainer";
 
 ReactDOM.render(
 	<React.StrictMode>
 		<Navbar />
 		<ItemListContainer />
 		<ItemCount min={1} max={10} />
+		<ItemDetailContainer />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
